@@ -1,0 +1,36 @@
+/* ルート変数 */
+:root {
+    --accent: #7FADCE; /* 好きな色に変更可能 */
+  }
+  
+  /* ベーススタイル */
+  body {
+    font-family: system-ui, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* 見出し（H1にaccentを使用） */
+  header h1 {
+    color: var(--accent);
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* ボタン（accent使用） */
+  #helloBtn {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  #helloBtn:hover {
+    opacity: 0.9;
+  }
